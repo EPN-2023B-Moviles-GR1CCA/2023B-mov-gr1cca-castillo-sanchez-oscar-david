@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="texto_saludo" translatable="false" > Buenas Noches</string>
+    <color name="color_letra" > #f4f4f4</color>
+    <color name="color_fondo_letra">#000000</color>
+    <color name="color_back">#5e2129</color>
+
+</resources>
