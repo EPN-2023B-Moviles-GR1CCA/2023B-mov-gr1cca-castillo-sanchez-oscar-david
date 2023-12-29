@@ -2,6 +2,7 @@ package com.example.gr1accdlrc2023b
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import com.google.android.material.snackbar.Snackbar
 
 class ACicloVida : AppCompatActivity() {
@@ -9,7 +10,7 @@ class ACicloVida : AppCompatActivity() {
     var textoGlobal = ""
     fun mostrarSnackbar(texto: String){
         textoGlobal+= "texto"
-        Snackbar
+        com.google.android.material.snackbar.Snackbar
             .make(
                 findViewById(R.id.cl_ciclo_vida),
                 textoGlobal,
@@ -18,9 +19,28 @@ class ACicloVida : AppCompatActivity() {
             .show()
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.run {
+            putString("textoGuardado", textoGlobal)
+            //putInt("numeroGuardado",numero)
+        }
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onRestoreInstanceState(
+        savedInstanceState: Bundle
+    ) {
+        super.onRestoreInstanceState(savedInstanceState)
+        val textoRecuperado:String? = savedInstanceState.getString("textoGuardado")
+        if(textoRecuperado!= null){
+            mostrarSnackbar(textoRecuperado)
+            textoGlobal = textoRecuperado
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_aciclo_vida)
+        mostrarSnackbar("OnCreate")
     }
 
     override fun onStart() {
