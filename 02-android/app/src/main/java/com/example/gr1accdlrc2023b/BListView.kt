@@ -1,9 +1,8 @@
 package com.example.gr1accdlrc2023b
 
-import android.R
+
 import android.annotation.SuppressLint
 import android.app.AlertDialog
-import android.app.Dialog
 import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,26 +13,25 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
-import androidx.compose.material3.Snackbar
-import com.example.gr1accdlrc2023b.R.*
-import com.example.gr1accdlrc2023b.R.id.*
+import com.google.android.material.snackbar.Snackbar
+
 
 class BListView : AppCompatActivity() {
     val arreglo = BBaseDatosMemoria.arreglosBEntrenador
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(layout.activity_blist_view)
-        val listView = findViewById<ListView>(lv_list_view)
+        setContentView(R.layout.activity_blist_view)
+        val listView = findViewById<ListView>(R.id.lv_list_view)
         val adaptador = ArrayAdapter(
             this,
-            R.layout.simple_list_item_1,
+            android.R.layout.simple_list_item_1,
             arreglo
         )
         listView.adapter = adaptador
         adaptador.notifyDataSetChanged()
         val  botonAnadirListView = findViewById<Button>(
-            btn_anadir_list_view
+            R.id.btn_anadir_list_view
         )
         botonAnadirListView
             .setOnClickListener {
@@ -63,7 +61,7 @@ class BListView : AppCompatActivity() {
 
     fun mostrarSnackBar(texto: String){
         com.google.android.material.snackbar.Snackbar.make(
-            findViewById(lv_list_view),
+            findViewById(R.id.lv_list_view),
             texto,
             com.google.android.material.snackbar.Snackbar.LENGTH_LONG
         )
@@ -72,12 +70,12 @@ class BListView : AppCompatActivity() {
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
         return when (item.itemId){
-            mi_editar -> {
+            R.id.mi_editar -> {
                 mostrarSnackBar("${posicionItemSeleccionado}")
                 return true
             }
 
-            mi_eliminar -> {
+            R.id.mi_eliminar -> {
                 mostrarSnackBar("${posicionItemSeleccionado}")
                 abrirDialogo()
                 return true
