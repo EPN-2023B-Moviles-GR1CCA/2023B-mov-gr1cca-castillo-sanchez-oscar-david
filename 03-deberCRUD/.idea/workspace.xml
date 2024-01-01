@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8261f968-e5e3-4c58-b207-ded1bc91f5ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/layout/activity_blist_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-android/app/src/main/res/layout/activity_blist_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/layout/activity_cintent_explicito_parametros.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-android/app/src/main/res/layout/activity_cintent_explicito_parametros.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-android/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/values-en-land/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/values-en-port/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/values-es-land/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/values-es-port/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-android/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/DeporteAtletaCRUD">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2aHIunpFnTGbUHsytdrE17DMSIt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8261f968-e5e3-4c58-b207-ded1bc91f5ed" name="Changes" comment="" />
+      <created>1703969312417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703969312417</updated>
+      <workItem from="1703969346084" duration="8090000" />
+      <workItem from="1704045430510" duration="13779000" />
+      <workItem from="1704079135687" duration="1439000" />
+      <workItem from="1704080723237" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,1 @@
+Fut,true,15-01-1990,9.5|Atleta(id=1727319954, nombre=Oscar, edad=21, deporte=Futbol, esProfesional=true, altura=1.73)
