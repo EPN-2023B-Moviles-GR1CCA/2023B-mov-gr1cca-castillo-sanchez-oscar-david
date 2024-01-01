@@ -13,5 +13,6 @@
         android:layout_height="wrap_content"
         android:text="DEVOLVER RESPUESTA"
         tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="319dp" />
+        tools:layout_editor_absoluteY="319dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

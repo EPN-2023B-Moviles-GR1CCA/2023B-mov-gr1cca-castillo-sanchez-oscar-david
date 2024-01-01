@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_back"
     android:contextClickable="false"
     android:id="@+id/mainScreen">
 
@@ -22,7 +21,6 @@
         android:id="@+id/textView6"
         android:layout_width="104dp"
         android:layout_height="36dp"
-        android:background="@color/color_fondo_letra"
         android:text="TextView"
         android:textColor="@color/color_texto"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,5 +59,6 @@
         android:layout_height="wrap_content"
         android:text="I. IMPLICITO"
         tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="248dp" />
+        tools:layout_editor_absoluteY="248dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
