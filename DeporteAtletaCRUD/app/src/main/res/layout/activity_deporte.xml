@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText
+        android:id="@+id/editTextNombreD"
+        android:layout_width="235dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtViewDeporte"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="@+id/txtViewDeporte"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewDeporte"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <EditText
+        android:id="@+id/editTextCreationDateD"
+        tools:ignore="MissingConstraints"
+        android:layout_width="235dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="Fecha de Creacion"
+        android:inputType="none"
+        android:focusable="false"
+        android:cursorVisible="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNombreD"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextNombreD"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreD"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/txtViewDeporte"
+        android:layout_width="169dp"
+        android:layout_height="32dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="DEPORTE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <EditText
+        android:id="@+id/editTextPopulD"
+        android:layout_width="233dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Popularidad"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCreationDateD"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="@+id/editTextCreationDateD"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCreationDateD"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Switch
+        android:id="@+id/switchProfD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Es Profesional"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPopulD"
+        app:layout_constraintStart_toStartOf="@+id/editTextPopulD"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPopulD"
+        app:layout_constraintVertical_bias="0.0"
+        tools:checked="false" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/switchProfD"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/switchProfD"
+        app:layout_constraintTop_toBottomOf="@+id/switchProfD"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/listView_Deporte"
+        android:layout_width="373dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnCrear"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="@+id/btnCrear"
+        app:layout_constraintTop_toBottomOf="@+id/btnCrear"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
