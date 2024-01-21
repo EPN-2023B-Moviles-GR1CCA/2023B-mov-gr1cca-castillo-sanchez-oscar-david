@@ -1,0 +1,116 @@
+<!-- res/layout/item_atleta.xml -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Etiqueta ID Atleta -->
+    <TextView
+        android:id="@+id/labelIdAtleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Atleta:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Valor ID Atleta -->
+    <TextView
+        android:id="@+id/tvIdAtleta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/labelIdAtleta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/labelIdAtleta"/>
+
+    <!-- Etiqueta Nombre -->
+    <TextView
+        android:id="@+id/labelNombreAtleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/labelIdAtleta"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Valor Nombre -->
+    <TextView
+        android:id="@+id/tvNombreAtleta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/labelNombreAtleta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/labelNombreAtleta"/>
+
+    <!-- Etiqueta Edad -->
+    <TextView
+        android:id="@+id/labelEdadAtleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/labelNombreAtleta"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Valor Edad -->
+    <TextView
+        android:id="@+id/tvEdadAtleta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/labelEdadAtleta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/labelEdadAtleta"/>
+
+    <!-- Etiqueta Id Deporte -->
+    <TextView
+        android:id="@+id/labelIdDeporteAtleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Deporte:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/labelEdadAtleta"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Valor Id Deporte -->
+    <TextView
+        android:id="@+id/tvDeporteAtleta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/labelIdDeporteAtleta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/labelIdDeporteAtleta"/>
+
+    <!-- Etiqueta Altura -->
+    <TextView
+        android:id="@+id/labelAlturaAtleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelIdDeporteAtleta" />
+
+    <!-- Valor Altura -->
+    <TextView
+        android:id="@+id/tvAlturaAtleta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/labelAlturaAtleta"
+        app:layout_constraintTop_toTopOf="@id/tvDeporteAtleta" />
+</androidx.constraintlayout.widget.ConstraintLayout>

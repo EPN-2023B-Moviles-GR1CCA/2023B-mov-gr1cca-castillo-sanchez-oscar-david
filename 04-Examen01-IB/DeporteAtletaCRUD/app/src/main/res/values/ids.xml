@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="labelDeporte" type="id" />
+    <item name="labelNombre" type="id" />
+    <item name="labelEdad" type="id" />
+    <item name="labelAltura" type="id" />
+</resources>

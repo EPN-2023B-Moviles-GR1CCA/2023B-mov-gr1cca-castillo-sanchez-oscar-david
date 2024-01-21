@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_edit_deporte"
+        android:title="Editar"/>
+    <item android:id="@+id/action_delete_deporte"
+        android:title="Eliminar"/>
+    <item android:id="@+id/action_ver_atletas"
+        android:title="Ver Atletas"/>
+</menu>
