@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_buscar_bdd" type="id" />
+    <item name="cl_sqlite" type="id" />
+    <item name="btn_crear_bdd" type="id" />
+    <item name="btn_actualizar_bdd" type="id" />
+    <item name="btn_eliminar_bdd" type="id" />
+    <item name="input_nombre" type="id" />
+    <item name="input_descripcion" type="id" />
+    <item name="input_id" type="id" />
+</resources>

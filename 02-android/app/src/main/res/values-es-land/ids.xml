@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="input_nombre" type="id" />
+    <item name="input_descripcion" type="id" />
+    <item name="input_id" type="id" />
+</resources>
