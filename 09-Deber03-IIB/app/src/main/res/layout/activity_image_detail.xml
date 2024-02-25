@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagen Destacada -->
+    <ImageView
+        android:id="@+id/selectedImageView"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Panel de Información Flotante -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/infoPanel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintTop_toBottomOf="@id/selectedImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Título de la Imagen -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Título de la Imagen"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <!-- Descripción -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción larga de la imagen..."
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Botones de Acción (Por ejemplo: Guardar, Compartir, etc.) -->
+            <!-- Añade tus botones de acción aquí -->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Otras vistas y elementos que consideres necesarios -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
