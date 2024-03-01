@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.sport.deporteatletacrud.app-merged_res-55:/layout_activity_actualizar_atleta.xml.flat",
+        "source": "com.example.sport.deporteatletacrud.app-main-57:/layout/activity_actualizar_atleta.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\menu_menu_atleta.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\menu\\menu_atleta.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_activity_actualizar_atleta.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\activity_actualizar_atleta.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_activity_atleta.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\activity_atleta.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_activity_actualizar_deporte.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\activity_actualizar_deporte.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_item_atleta.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\item_atleta.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_activity_ver_atletas.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\activity_ver_atletas.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_item_deporte.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\item_deporte.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_activity_deporte.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\activity_deporte.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\menu_menu_deporte.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\menu\\menu_deporte.xml"
+    },
+    {
+        "merged": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-merged_res-55:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\osdca\\.gradle\\daemon\\8.0\\com.example.sport.deporteatletacrud.app-main-57:\\layout\\activity_main.xml"
+    }
+]
